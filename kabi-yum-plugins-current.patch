@@ -1,0 +1,12 @@
+diff --git a/kabi.conf b/kabi.conf
+index aa70ab7d5660..c785ca460eba 100644
+--- a/kabi.conf
++++ b/kabi.conf
+@@ -1,6 +1,6 @@
+ [main]
+ enabled=1
+-whitelists=/lib/modules/kabi
++whitelists=/lib/modules/kabi-current
+ # The default is to warn in the case that an external kernel module (driver)
+ # uses non approved kABI symbols. Uncomment the following line to force an
+ # error message to be displayed and disllow installation of such drivers.
